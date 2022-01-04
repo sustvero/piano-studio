@@ -1,0 +1,26 @@
+<%- include("partials/header") -%>
+<%- include("partials/navbar", {active: "Relax"}) -%>
+  <div class="white">
+    <h1>Relax & Listen</h1>
+    <hr>
+    <h2>Some moving pieces from Irina's repertoire</h2>
+    <h3>Audio (in windows media format)</h3>
+
+    <nav class="select-audio">
+      <ul>
+        <li><a href="files/BeethovenSonata1.wma">Beethoven - Sonata in C-sharp minor, op. 27, no. 2</a></li>
+        <li><a href="files/Chopinetudeno12.wma">Chopin - Etude in C-minor, op. 10, no 12</a></li>
+        <li><a href="files/ChopinFantasyImpromptu.wma">Chopin - Fantasie-Impromtu in C-sharp minor, op. 66 </a></li>
+        <li><a href="files/ChopinNocturnCsharpminor.wma">Chopin - Nocturne in C-sharp minor, no.20 </a></li>
+      </ul>
+    </nav>
+
+    <h3>Video (in windows media format)</h3>
+    <video class="chopin-video" width="320" height="240" controls>
+      <source src="files/Ballade in G minor, op. 23.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+
+  </div>
+  <%- include("partials/footer") -%>
