@@ -9,7 +9,6 @@ h1 {
   font-size: 4rem;
   font-family: "PLayfair Display", serif;
   text-align: left;
-
 }
 
 h2 {
@@ -21,12 +20,6 @@ h2 {
   padding-bottom: 20px;
   }
 
-.white h2 {
-    color: #461675;
-    text-align: center;
-    padding-bottom: 30px;
-  }
-
 h3 {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 1.25rem;
@@ -35,12 +28,12 @@ h3 {
   margin-bottom: 20px;
 }
 
-p {
-  color: #949494;
-  font-family: "Source Sans Pro";
-  font-size: 1rem;
-  font-weight: bold;
-  margin: auto;
+hr {
+  border-style: none none dotted none;
+  border-width: 5px;
+  color: #E3DCDC;
+  margin: 50px auto;
+  width: 90px;
 }
 
 li {
@@ -73,20 +66,16 @@ nav li a {
   text-decoration: none;
 }
 
-
-
-hr {
-  border-style: none none dotted none;
-  border-width: 5px;
-  color: #E3DCDC;
-  margin: 50px auto;
-
-  width: 90px;
+p {
+  color: #949494;
+  font-family: "Source Sans Pro";
+  font-size: 1rem;
+  font-weight: bold;
+  margin: auto;
 }
 
 table {
   border-spacing: 10px;
-
 }
 
 td {
@@ -96,24 +85,16 @@ td {
   vertical-align: top;
 }
 
-
-
 /***********************************CLASS SELECTORS************************************/
 
 .active {
   color: #ffffff;
 }
 
-.top-container {
-background-color: #461675;
-margin: auto;
-}
-
 .middle-container {
   background-color: #F4F4F4;
   padding: 50px 0 100px 0;
 }
-
 
 .bio-img {
   /* float: left; */
@@ -140,14 +121,42 @@ margin: auto;
   padding: 20px 0;
 }
 
+.bottom-heading {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: normal;
+  padding: 20px;
+}
+
 .bottom_logos {
   height: 100px;
   margin: 20px 0;
 }
 
+.bottom-text {
+  font-size: 1rem;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+}
+
 .caption {
   margin-top: 20px;
   margin-bottom: 50px;
+}
+
+.card {
+  margin: 50px 20px;
+}
+
+.coloured {
+  background-color: #806c94;
+  color: #ffffff;
+  padding: 3% 15%;
+}
+
+.coloured p {
+  color: #ffffff;
+  font-weight: normal;
 }
 
 .contact-me {
@@ -167,6 +176,11 @@ margin: auto;
   font-size: 3rem;
 }
 
+.emphasized {
+  font-weight: lighter;
+  font-size: 4rem;
+}
+
 .function-img {
   border-radius: 10%;
   height: 300px;
@@ -180,15 +194,21 @@ margin: auto;
   padding: 10px;
 }
 
-
-
 .header {
   height: 100px;
   margin-top: 20px;
 }
 
-.lessons {
+.home_img {
+  height: 17rem;
+  padding: 20px;
+}
 
+.img-container {
+  position: relative;
+}
+
+.lessons {
   font-family: "Source Sans Pro";
   font-weight: bold;
   padding-top: 10%;
@@ -212,14 +232,22 @@ margin: auto;
   padding: 30px;
 }
 
-.piano-lessons {
+.links {
+  padding: 3%;
   text-align: center;
 }
 
-.bottom-text {
-  font-size: 1rem;
+/* Bootstrap */
+.navbar-brand {
   font-family: "Source Sans Pro";
-  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.piano-lessons {
+  text-align: center;
 }
 
 .quotation {
@@ -227,7 +255,27 @@ margin: auto;
   font-family: "Playfair Display";
   font-weight: normal;
   font-size: 1.3rem;
+}
 
+.quotation-icon {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+.philosophy-container {
+  padding: 3% 15%;
+}
+
+.philosophy-heading {
+  color: #806c94;
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Noto Sans JP";
+  text-align: center;
+}
+
+.related-btn {
+  margin: 40px;
 }
 
 .related-img {
@@ -239,6 +287,10 @@ margin: auto;
 .related-inf {
   text-align: center;
   vertical-align: middle;
+}
+
+.related-links {
+  padding: 0 10%;
 }
 
 .resume {
@@ -265,31 +317,19 @@ margin: auto;
   background-color: #B1A1E6;
   border-color: #C9BDF0;
   border-style: solid;
-
   float: none;
 }
-
-/*.select-audio a {
-  font-family: "Playfair Display", serif;
-}*/
 
 .select-audio li a:hover {
   background-color: #8566AA;
 }
 
-
-/* Bootstrap */
-.navbar-brand {
-  font-family: "Source Sans Pro";
-
-}
-.nav-item {
-  padding: 0 10px;
+.theory-lessons {
+  padding-left: 20%;
 }
 
 .title-container {
   background-image: url("../images/child-piano.png");
-
   background-size: 100%;
   background-blend-mode: lighten;
   height: 600px;
@@ -305,55 +345,14 @@ margin: auto;
   font-size: 5rem;
 }
 
-.emphasized {
-  font-weight: lighter;
-  font-size: 4rem;
-}
-
-.home_img {
-  height: 17rem;
-  padding: 20px;
-}
-
-.philosophy-container {
-  padding: 3% 15%;
-}
-
-.philosophy-heading {
-  color: #806c94;
-  font-weight: bold;
-  font-size: 1.5rem;
-  font-family: "Noto Sans JP";
-  text-align: center;
-
-}
-
-.coloured {
-  background-color: #806c94;
-  color: #ffffff;
-  padding: 3% 15%;
+.top-container {
+  background-color: #461675;
+  margin: auto;
 }
 
 .white {
   background-color: #ffffff;
   padding: 3% 15%;
-
-}
-
-.quotation-icon {
-  font-size: 2rem;
-  padding-bottom: 20px;
-}
-
-.img-container {
-  position: relative;
-}
-
-.bottom-heading {
-  text-align: center;
-  font-size: 1.2rem;
-  font-weight: normal;
-  padding: 20px;
 }
 
 .white li {
@@ -362,32 +361,8 @@ margin: auto;
   font-weight: normal;
 }
 
-.coloured p {
-  color: #ffffff;
-  font-weight: normal;
-}
-
-.coloured hr {
-
-}
-
-.theory-lessons {
-  padding-left: 20%;
-}
-
-.card {
-  margin: 50px 20px;
-}
-
-.links {
-  padding: 3%;
-  text-align: center;
-}
-
-.related-btn {
-  margin: 40px;
-}
-
-.related-links {
-  padding: 0 10%;
-}
+.white h2 {
+    color: #461675;
+    text-align: center;
+    padding-bottom: 30px;
+  }
