@@ -17,7 +17,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: bold;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   }
 
 h3 {
@@ -25,7 +25,8 @@ h3 {
   font-size: 1.25rem;
   font-weight: bold;;
   font-style: italic;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 15px;
 }
 
 hr {
@@ -75,7 +76,6 @@ p {
 }
 
 table {
-  border-spacing: 10px;
 }
 
 td {
@@ -208,6 +208,7 @@ td {
   position: relative;
 }
 
+
 .lessons {
   font-family: "Source Sans Pro";
   font-weight: bold;
@@ -300,6 +301,21 @@ td {
   width: 80%;
   margin: auto;
   text-align: left;
+}
+
+.resume-heading {
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+.resume-table {
+  border-collapse: separate;
+  border-spacing: 40px 15px;
+}
+
+.resume-obj {
+  padding-top: 20px;
+  color: black;
 }
 
 .select-audio {
